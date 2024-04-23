@@ -3,7 +3,34 @@
 {
 	"name": "Node.js",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye"
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/python": {
+			"version": "os-provided",
+			"installTools": "true",
+			"toolsToInstall": "flake8,autopep8,black,yapf,mypy,pydocstyle,pycodestyle,bandit,pipenv,virtualenv,pytest,pylint",
+			"optimize": "false",
+			"enableShared": "false",
+			"installPath": "/usr/local/python",
+			"installJupyterlab": "false",
+			"configureJupyterlabAllowOrigin": "",
+			"httpProxy": ""
+		},
+		"ghcr.io/devcontainers/features/conda": {
+			"version": "4.12.0",
+			"addCondaForge": "true"
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker": {
+			"version": "latest",
+			"moby": "true",
+			"mobyBuildxVersion": "latest",
+			"dockerDashComposeVersion": "latest",
+			"azureDnsAutoDetection": "true",
+			"dockerDefaultAddressPool": "",
+			"installDockerBuildx": "true",
+			"installDockerComposeSwitch": "true"
+		}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

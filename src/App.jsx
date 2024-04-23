@@ -16,7 +16,7 @@ export default function App() {
         buy tokens to vote on community agenda via telegram
         https://t.me/thisisopia
       </p>
-      <p>500+ trillion tokens minted, message us on Telegram to buy</p>
+      <p>500+ trillion tokens created, message us on Telegram to buy</p>
       <p>ETH Wallet Address: 0x9adaB8e90016076c983Df2eD8755e6258D2CD507</p>
       <p>tokens are sent after eth or btc is received</p>
       <p>there is no contract address, admin will tell you token balance</p>
