@@ -8,7 +8,7 @@ export default function App() {
         A Human-Centric Operating System That Powers The World Around You And
         Beyond.
       </h2>
-      <p>view the whitepaper</p>
+      <p>view the whitepaperV1</p>
       <p>
         https://docs.google.com/document/d/1IcBpwH_XpYzAxiEEiHttPfQPYIK7EBDOXbli6zIrj8A/edit?usp=sharing{" "}
       </p>
